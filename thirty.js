@@ -1,3 +1,5 @@
+const num1 = "123456789123456789";
+const num2 = "987654321987654321";
 function addStrings(num1, num2) {
     let result = '';
     let carry = 0;
@@ -19,9 +21,7 @@ function addStrings(num1, num2) {
     return result;
   }
   
-  // Example usage:
-  const num1 = "123456789123456789";
-  const num2 = "987654321987654321";
+  
   const sum = addStrings(num1, num2);
-  console.log(sum); // Output: "1111111111111111110"
+  console.log(sum); 
   

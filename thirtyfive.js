@@ -10,7 +10,7 @@ function csvToArray(csvText, delimiter = ',') {
     return result;
   }
   
-  // Example usage:
+  
   const csvText = `John,Doe,30
   Jane,Smith,25
   Bob,Johnson,40`;
