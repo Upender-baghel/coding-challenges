@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" placeholder="Enter Value " id="inn">
+    <button onclick="plus()">Click here </button>
+
+    <h1 id="res"></h1>
+
+
+<script>
+        function plus(){
+    var a = parseInt(document.getElementById('inn').value)
+    let num = true
+    
+    for(let i = 2 ; i<a ; i++){
+        if(a%i==0){
+            num = false
+        }
+        if(num==true){
+            // document.write(a + 'is a Prime Number ')
+            document.getElementById('res').innerText = 'True'
+            // return true
+        }else{
+            // document.write(a+' Is Not a prime Number ')
+            // return false
+            document.getElementById('res').innerText = 'False'
+
+        }
+    }
+
+}
+
+</script>
+
+    
+</body>
+</html>

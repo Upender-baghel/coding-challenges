@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input type="text" id="inn" placeholder="Enter Celsius Value " > 
+    <button onclick="sum()">Convert</button>
+
+    <h1 id="res"></h1>
+
+
+    <script>
+        // b = null
+        function sum(){
+            var a  = parseInt(document.getElementById('inn').value)
+            var b = a+273
+
+            document.getElementById('res').innerText = b + " Fahrenheit"
+        }
+    </script>
+</body>
+</html>

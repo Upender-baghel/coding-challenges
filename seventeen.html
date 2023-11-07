@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input type="text" placeholder="Enter Last Digit" id="inn">
+    <button onclick="plus()">Click Me</button>
+    <h1 id="res" > </h1>
+
+
+    <script>
+
+        function plus(){
+            var a = parseInt(document.getElementById('inn').value)
+            var sum =null
+            for(let i =0 ; i<=  a ; i++){
+                sum += i
+            }
+            document.getElementById('res').innerText = sum
+
+
+        }
+    </script>
+</body>
+</html>
