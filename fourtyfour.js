@@ -1,10 +1,6 @@
-const bString = '1102'; 
+console.log(binaryToNumber("11111111"));
 
-const dNumber = binary(bString);
-function binary(bString) {
-    const dNumber = parseInt(bString, 2);
-    return dNumber;
-  }
-  
-  console.log(dNumber); 
-  
+function binaryToNumber(sBinary)
+{
+    return parseInt(sBinary, 2);
+}
